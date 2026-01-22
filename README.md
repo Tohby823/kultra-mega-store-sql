@@ -21,8 +21,39 @@ This project analyzes historical sales, customer, and shipping data to identify 
 - Microsoft Excel (data inspection & visualization)  
 - Documentation and reporting  
 
+---
 
 ## Business Context
-## 📊 Business Challenge
 
-The Abuja branch of Kultra Mega Stores needed strategic insights on sales performance, customer value, and shipping efficiency to support business decisions. This study uses SQL to analyze historical order and shipping data to reveal patterns, strengths, and areas of improvement.
+Kultra Mega Stores wanted to understand their sales performance, customer behavior, and shipping efficiency over the period 2009–2012. The goal of this case study is to provide insights that help:  
+- Improve inventory management  
+- Identify top-performing products and regions  
+- Optimize customer engagement and shipping processes
+
+---
+
+## Dataset & Tools
+
+**Dataset:**  
+- **Data Categories:** Orders, Customers, Shipping Details, Products  
+- **Period:** 2009–2012  
+- **Source:** DSA Capstone project files  
+
+**Tools Used:**  
+- SQL Server (querying & aggregation)  
+- Microsoft Excel (preliminary inspection & charts)  
+- GitHub (project hosting & documentation)
+
+---
+
+## Key Insights & SQL Techniques
+
+| Insight | SQL Technique | Result |
+|--------|---------------|--------|
+| Highest sales by product category | `GROUP BY` + `ORDER BY DESC` | Technology category dominated sales |
+| Top-performing regions | Aggregation + ranking | Identified top 3 regions for sales, bottom 3 regions for improvement |
+| Customer order behavior | `JOIN` + filtering | Repeat customers contributed 40% of total revenue |
+| Shipping efficiency | Aggregation & calculated fields | Found delays mainly in Northern regions |
+
+*Visuals and charts included in the `images/` folder.*
+
