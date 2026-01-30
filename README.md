@@ -63,4 +63,17 @@ Kultra Mega Stores wanted to understand their sales performance, customer behavi
 
 1. Clone the repository:  
 ```bash
-git clone https://github.com/Tohby823/kultra-mega-stores-sql.git
+git clone https://github.com/Tohby823/kultra-mega-stores-sql.git 
+```
+2. Open README.md for documentation
+3. Explore SQL scripts in the `sql/ ` folder
+4. View any charts or tables in the `images/` folder
+5. Run queries in SQL Server to reproduce findings
+
+---
+
+## Limitations & Future Work
+1. Dataset only spans 2009–2012, so insights may not reflect current trends
+2. Some shipping and logistics data were unavailable, limiting analysis
+3. Dataset regions are fictional and may not correspond to real locations
+4. Future work: integrate with Power BI/Tableau dashboards for interactive visualization and predictive analytics
