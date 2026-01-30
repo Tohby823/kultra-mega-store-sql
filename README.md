@@ -57,3 +57,10 @@ Kultra Mega Stores wanted to understand their sales performance, customer behavi
 
 *Visuals and charts included in the `images/` folder.*
 
+---
+
+## How to Explore This Project
+
+1. Clone the repository:  
+```bash
+git clone https://github.com/Tohby823/kultra-mega-stores-sql.git
