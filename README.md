@@ -4,16 +4,17 @@ A SQL‑driven data analysis case study of inventory, sales, and shipping perfor
 
 ## Table of Contents
 1. [Project Summary](#project-summary)
-2. [Business Context](#business-context)
-3. [Dataset & Tools](#dataset--tools)
-4. [Key Insights & SQL Techniques](#key-insights--sql-techniques)
-5. [How to Explore This Project](#how-to-explore-this-project)
-6. [Limitations & Future Work](#limitations--future-work)
+2. [Dataset Description](#dataset-description)
+3. [Business Context](#business-context)
+4. [Dataset & Tools](#dataset--tools)
+5. [Key Insights & SQL Techniques](#key-insights--sql-techniques)
+6. [How to Explore This Project](#how-to-explore-this-project)
+7. [Limitations & Future Work](#limitations--future-work)
 
 ---
 
 ## Project Summary 
-This project analyzes historical sales, customer, and shipping data to identify patterns, trends, and areas of improvement. Using SQL queries, aggregation, and joins, actionable insights were generated to support strategic decisions in inventory management, customer targeting, and logistics optimization.
+This project analyzes historical sales, customer, and shipping data to identify patterns, trends, and areas of improvement for a fictional retail company. Using SQL queries, aggregation, and joins, actionable insights were generated to support strategic decisions in inventory management, customer targeting, and logistics optimization.
 
 **Skills & Tools:**  
 - SQL querying (`JOIN`, `GROUP BY`, `ORDER BY`, aggregation functions)  
@@ -23,8 +24,19 @@ This project analyzes historical sales, customer, and shipping data to identify 
 
 ---
 
-## Business Context
+## Dataset Description
+- Time period: 2009–2012
+- Data includes:
+  - Orders
+  - Customers
+  - Products
+  - Shipping details
 
+
+
+---
+
+## Business Context
 Kultra Mega Stores wanted to understand their sales performance, customer behavior, and shipping efficiency over the period 2009–2012. The goal of this case study is to provide insights that help:  
 - Improve inventory management  
 - Identify top-performing products and regions  
@@ -33,7 +45,6 @@ Kultra Mega Stores wanted to understand their sales performance, customer behavi
 ---
 
 ## Dataset & Tools
-
 **Dataset:**  
 - **Data Categories:** Orders, Customers, Shipping Details, Products  
 - **Period:** 2009–2012  
@@ -63,7 +74,7 @@ Kultra Mega Stores wanted to understand their sales performance, customer behavi
 
 1. Clone the repository:  
 ```bash
-git clone https://github.com/Tohby823/kultra-mega-stores-sql.git 
+[git clone https://github.com/Tohby823/kultra-mega-stores-sql.git ](https://github.com/Tohby823/kultra-mega-store-sql/blob/main/README.md)
 ```
 2. Open README.md for documentation
 3. Explore SQL scripts in the `sql/ ` folder
@@ -77,3 +88,7 @@ git clone https://github.com/Tohby823/kultra-mega-stores-sql.git
 2. Some shipping and logistics data were unavailable, limiting analysis
 3. Dataset regions are fictional and may not correspond to real locations
 4. Future work: integrate with Power BI/Tableau dashboards for interactive visualization and predictive analytics
+
+---
+
+sql/
